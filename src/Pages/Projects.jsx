@@ -1,7 +1,7 @@
 import React from "react";
 import "../assets/CSS/Projects.css";
 
-import thegrovela from "../assets/image/thegrovela.png";
+import thegrovela from "../assets/image/Thegrovela.png";
 import generalmills from "../assets/image/generalmills.png";
 const projectData = [
   {
