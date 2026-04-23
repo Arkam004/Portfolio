@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.skills {
+  padding: 70px 6%;
+  background: #ffffff;
+}
+
+.skills h4 {
+  text-align: center;
+  color: #b5b892;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 3px;
+  margin-bottom: 20px;
+}
+
+.skills-heading {
+  text-align: center;
+  font-size: 38px;
+  font-weight: 600;
+  margin-bottom: 60px;
+  color: #0f172a;
+}
+
+.skills-wrapper {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 35px;
+}
+
+/* SAME CARD SIZE & BORDER */
+.skill-box {
+  height: 140px;
+  border-radius: 18px;
+  border: 2px solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: 0.3s ease;
+  background: #fff;
+}
+
+.skill-box h3 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+
+.skill-box span {
+  font-size: 12px;
+  opacity: 0.75;
+}
+
+/* VERY LIGHT HOVER (IMAGE JAISE) */
+.skill-box:hover {
+  transform: translateY(-8px);
+}
+
+/* COLORS EXACT FEEL */
+.html {
+  background: #fff4ec;
+  border-color: #ffb37b;
+  color: #ff6a00;
+  height: 95px;
+}
+
+.css {
+  background: #f1f6ff;
+  border-color: #b6ccff;
+  color: #2563eb;
+  height: 95px;
+}
+
+.js {
+  background: #fffbe9;
+  border-color: #facc15;
+  color: #b45309;
+  height: 95px;
+}
+
+.react {
+  background: #ecfeff;
+  border-color: #67e8f9;
+  color: #0891b2;
+  height: 95px;
+}
+
+.node {
+  background: #ecfdf3;
+  border-color: #86efac;
+  color: #15803d;
+  height: 95px;
+}
+
+.express {
+  background: #f9fafb;
+  border-color: #d1d5db;
+  color: #374151;
+  height: 95px;
+}
+
+
+.mysql {
+  background: #fff7ed;
+  border-color: #fdba74;
+  color: #c2410c;
+  height: 95px;
+}
+
+.git {
+  background: #eff6ff;
+  border-color: #bfdbfe;
+  color: #1d4ed8;
+  height: 95px;
+}
+
+.github {
+  background: #fefce8;
+  border-color: #fde047;
+  color: #a16207;
+  height: 95px;
+}
+
+.vscode {
+  background: #ecfeff;
+  border-color: #67e8f9;
+  color: #0284c7;
+  height: 95px;
+}
+
+/* RESPONSIVE (IMAGE JAISA BREAK) */
+@media (max-width: 992px) {
+  .skills-wrapper {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 480px) {
+  .skills-wrapper {
+    grid-template-columns: 1fr;
+  }
+}
