@@ -1,4 +1,3 @@
 User-agent: *
 Allow: /
-
 Sitemap: https://dhukaarkam.vercel.app/sitemap.xml
